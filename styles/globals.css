@@ -14,6 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+main{
+  display: grid;
+  place-items: center;
+}
+.box{
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px 35px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  margin-bottom: 1rem;
+  color: #212529;
+  text-align: center;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
